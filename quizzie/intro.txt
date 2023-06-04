@@ -1,0 +1,13 @@
+import React from 'react'
+
+export default function Intro(props) {
+    return (
+        <div className='intro'>
+            <div className='intro-wrapper'>
+                <h1>Quizzical</h1>
+                <p>Some description if needed</p>
+                <button className='hero-btn' onClick={props.toggleDisplay}>Start quiz</button>
+            </div>
+        </div>
+    )
+}
